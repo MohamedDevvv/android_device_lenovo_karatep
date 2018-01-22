@@ -18,4 +18,7 @@ DEVICE_PATH := device/lenovo/karatep
 
 include device/lenovo/karate-common/BoardConfigCommon.mk
 
+# Include device-specific board fragments
+include $(DEVICE_PATH)/board/*.mk
+
 -include vendor/lenovo/karatep/BoardConfigVendor.mk
