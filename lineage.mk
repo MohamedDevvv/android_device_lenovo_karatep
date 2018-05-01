@@ -23,14 +23,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_NAME := lineage_karatep
 BOARD_VENDOR := lenovo
 PRODUCT_DEVICE := karatep
-PRODUCT_BRAND := lenovo
+PRODUCT_BRAND := Lenovo
 PRODUCT_MANUFACTURER := LENOVO
-
-TARGET_VENDOR_PRODUCT_NAME := karatep
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
+    TARGET_DEVICE="K53" \
+    PRODUCT_NAME="karatep" \
     PRIVATE_BUILD_DESC="karatep-user 7.0 NRD90N K53_S228_171114_ROW release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
