@@ -1,13 +1,13 @@
 # Proprietary files for karatep
 
 # Audio ACDB
-etc/acdbdata/msm8937-karatep-snd-card/Bluetooth_cal.acdb
-etc/acdbdata/msm8937-karatep-snd-card/General_cal.acdb
-etc/acdbdata/msm8937-karatep-snd-card/Global_cal.acdb
-etc/acdbdata/msm8937-karatep-snd-card/Handset_cal.acdb
-etc/acdbdata/msm8937-karatep-snd-card/Hdmi_cal.acdb
-etc/acdbdata/msm8937-karatep-snd-card/Headset_cal.acdb
-etc/acdbdata/msm8937-karatep-snd-card/Speaker_cal.acdb
+etc/acdbdata/msm8937-karatep-snd-card/Bluetooth_cal.acdb:vendor/etc/acdbdata/msm8937-karatep-snd-card/Bluetooth_cal.acdb
+etc/acdbdata/msm8937-karatep-snd-card/General_cal.acdb:vendor/etc/acdbdata/msm8937-karatep-snd-card/General_cal.acdb
+etc/acdbdata/msm8937-karatep-snd-card/Global_cal.acdb:vendor/etc/acdbdata/msm8937-karatep-snd-card/Global_cal.acdb
+etc/acdbdata/msm8937-karatep-snd-card/Handset_cal.acdb:vendor/etc/acdbdata/msm8937-karatep-snd-card/Handset_cal.acdb
+etc/acdbdata/msm8937-karatep-snd-card/Hdmi_cal.acdb:vendor/etc/acdbdata/msm8937-karatep-snd-card/Hdmi_cal.acdb
+etc/acdbdata/msm8937-karatep-snd-card/Headset_cal.acdb:vendor/etc/acdbdata/msm8937-karatep-snd-card/Headset_cal.acdb
+etc/acdbdata/msm8937-karatep-snd-card/Speaker_cal.acdb:vendor/etc/acdbdata/msm8937-karatep-snd-card/Speaker_cal.acdb
 
 # Camera eeproms
 vendor/lib/libmmcamera_dw9767_karatepof_eeprom.so
@@ -110,6 +110,6 @@ vendor/lib/libchromatix_s5k3p3_karatepsy_zsl_preview_dw9800.so
 vendor/lib/libchromatix_s5k3p3_karatepsy_zsl_video_dw9800.so
 
 # Display calibration
--etc/qdcm_calib_data_hx8399c_1080p_video_tm.xml
--etc/qdcm_calib_data_ili7807d_1080p_video_DJN.xml
--etc/qdcm_calib_data_nt35596_1080p_video_tm.xml
+-etc/qdcm_calib_data_hx8399c_1080p_video_tm.xml:vendor/etc/qdcm_calib_data_hx8399c_1080p_video_tm.xml
+-etc/qdcm_calib_data_ili7807d_1080p_video_DJN.xml:vendor/etc/qdcm_calib_data_ili7807d_1080p_video_DJN.xml
+-etc/qdcm_calib_data_nt35596_1080p_video_tm.xml:vendor/etc/qdcm_calib_data_nt35596_1080p_video_tm.xml
