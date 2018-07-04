@@ -18,7 +18,6 @@ DEVICE_PATH := device/lenovo/karatep
 
 include device/lenovo/karate-common/BoardConfigCommon.mk
 
-
 # Assert
 TARGET_OTA_ASSERT_DEVICE := K53,karatep
 
