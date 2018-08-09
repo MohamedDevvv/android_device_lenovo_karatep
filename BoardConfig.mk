@@ -21,7 +21,14 @@ include device/lenovo/karate-common/BoardConfigCommon.mk
 # Assert
 TARGET_OTA_ASSERT_DEVICE := K53,karatep
 
-# Include device-specific board fragments
-include $(DEVICE_PATH)/board/*.mk
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
+
+# Init
+TARGET_LIBINIT_MSM8937_DEFINES_FILE := $(DEVICE_PATH)/init/init_karatep.cpp
+
+# Kernel
+TARGET_KERNEL_CONFIG := karatep_defconfig
+
 
 -include vendor/lenovo/karatep/BoardConfigVendor.mk
