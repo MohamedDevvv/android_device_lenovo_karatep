@@ -69,38 +69,38 @@ void check_boardinfo()
 		if (lenovo_id.find("S82939AA1") != std::string::npos) {
 			property_override("ro.build.product", "K53a48");
 			property_override("ro.product.board", "S82939AA1");
-			property_override_dual("ro.product.device", "ro.vendor.product.device", "K53a48");
-			property_override_dual("ro.product.model", "ro.vendor.product.model", "Lenovo K53a48");
+			property_override_dual("ro.product.device", "ro.product.vendor.device", "K53a48");
+			property_override_dual("ro.product.model", "ro.product.vendor.model", "Lenovo K53a48");
 			property_set("persist.radio.multisim.config", "dsds");
 			property_set("ro.telephony.default_network", "9,9");
 			break;
 		} else if (lenovo_id.find("S82939BA1") != std::string::npos) {
 			property_override("ro.build.product", "K53a48");
 			property_override("ro.product.board", "S82939BA1");
-			property_override_dual("ro.product.device", "ro.vendor.product.device", "K53a48");
-			property_override_dual("ro.product.model", "ro.vendor.product.model", "Lenovo K53a48");
+			property_override_dual("ro.product.device", "ro.product.vendor.device", "K53a48");
+			property_override_dual("ro.product.model", "ro.product.vendor.model", "Lenovo K53a48");
 			property_set("persist.radio.multisim.config", "dsds");
 			property_set("ro.telephony.default_network", "9,9");
 			break;
 		} else if (lenovo_id.find("S82939CA1") != std::string::npos) {
 			property_override("ro.build.product", "K53a48");
 			property_override("ro.product.board", "S82939CA1");
-			property_override_dual("ro.product.device", "ro.vendor.product.device", "K53a48");
-			property_override_dual("ro.product.model", "ro.vendor.product.model", "Lenovo K53a48");
+			property_override_dual("ro.product.device", "ro.product.vendor.device", "K53a48");
+			property_override_dual("ro.product.model", "ro.product.vendor.model", "Lenovo K53a48");
 			property_set("ro.telephony.default_network", "9");
 			break;
 		} else if (lenovo_id.find("S82939FA1") != std::string::npos) {
 			property_override("ro.build.product", "K53b36");
 			property_override("ro.product.board", "S82939FA1");
-			property_override_dual("ro.product.device", "ro.vendor.product.device", "K53b36");
-			property_override_dual("ro.product.model", "ro.vendor.product.model", "Lenovo K53b36");
+			property_override_dual("ro.product.device", "ro.product.vendor.device", "K53b36");
+			property_override_dual("ro.product.model", "ro.product.vendor.model", "Lenovo K53b36");
 			property_set("persist.radio.multisim.config", "dsds");
 			property_set("ro.telephony.default_network", "9,9");
 			break;
 		} else {
 			property_override("ro.product.board", "S82939GA1");
-			property_override_dual("ro.product.device", "ro.vendor.product.device", "K53b37");
-			property_override_dual("ro.product.model", "ro.vendor.product.model", "Lenovo K53b37");
+			property_override_dual("ro.product.device", "ro.product.vendor.device", "K53b37");
+			property_override_dual("ro.product.model", "ro.product.vendor.model", "Lenovo K53b37");
 			property_override("ro.build.product", "K53b37");
 			property_set("ro.telephony.default_network", "9");
 		}
