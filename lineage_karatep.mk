@@ -34,4 +34,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="karatep-user 7.0 NRD90N K53_S228_171114_ROW release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "Lenovo/karatep/K53:7.0/NRD90N/K53_S228_171114_ROW:user/release-keys"
+BUILD_FINGERPRINT := "Lenovo/karatep/K53a48:7.0/NRD90N/K53_S228_171114_ROW:user/release-keys"
