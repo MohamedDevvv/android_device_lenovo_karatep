@@ -24,6 +24,7 @@ PRODUCT_NAME := lineage_karatep
 BOARD_VENDOR := lenovo
 PRODUCT_DEVICE := karatep
 PRODUCT_BRAND := Lenovo
+PRODUCT_MODEL := Lenovo K6 Note
 PRODUCT_MANUFACTURER := LENOVO
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo

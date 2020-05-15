@@ -38,6 +38,10 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/camera/s5k3p3_karatepof_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3_karatepof_chromatix.xml \
     $(DEVICE_PATH)/configs/camera/s5k3p3_karatepsy_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3_karatepsy_chromatix.xml
 
+# Init
+PRODUCT_PACKAGES += \
+    init.device.sh
+
 # Keylayouts
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/keylayout/msm8937-karatep-snd-card_Button_Jack.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/msm8937-karatep-snd-card_Button_Jack.kl
