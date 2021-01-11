@@ -31,6 +31,9 @@ TARGET_RECOVERY_DEVICE_MODULES := //$(DEVICE_PATH):libinit_karatep
 # Kernel
 TARGET_KERNEL_CONFIG := karatep_defconfig
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
