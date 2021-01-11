@@ -24,10 +24,6 @@ TARGET_OTA_ASSERT_DEVICE := K53,karatep
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_karatep
-TARGET_RECOVERY_DEVICE_MODULES := //$(DEVICE_PATH):libinit_karatep
-
 # Kernel
 TARGET_KERNEL_CONFIG := karatep_defconfig
 
