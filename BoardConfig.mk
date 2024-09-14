@@ -34,3 +34,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 -include vendor/lenovo/karatep/BoardConfigVendor.mk
+
+# SELinux permissive
+BOARD_KERNEL_CMDLINE += selinux=1 audit=0
