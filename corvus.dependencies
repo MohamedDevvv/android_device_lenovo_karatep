@@ -1,0 +1,20 @@
+[
+  {
+    "repository" : "MohamedDevvv/android_device_lenovo_karate-common",
+    "target_path": "device/lenovo/karate-common',
+    "branch": "hybris-18.1",
+    "remote": "github"
+  },
+  {
+    "repository" : "MohamedDevvv/proprietary_vendor_lenovo",
+    "target_path": "vendor/lenovo",
+    "branch": "hybris-18.1",
+    "remote": "github"
+  },
+  {
+    "repository": "MohamedDevvv/android_kernel_lenovo_msm8937",
+    "target_path": "kernel/lenovo/msm8937",
+    "branch": "hybris-18.1",
+    "remote":"github"
+  }
+]
