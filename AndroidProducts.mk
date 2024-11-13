@@ -14,4 +14,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_karatep.mk \
-    $(LOCAL_DIR)/cafex_karatep.mk
+    $(LOCAL_DIR)/corvus_karatep.mk
