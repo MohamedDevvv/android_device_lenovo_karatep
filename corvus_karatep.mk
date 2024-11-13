@@ -17,15 +17,20 @@
 $(call inherit-product, device/lenovo/karatep/full_karatep.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/extended/config/common_full_phone.mk)
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := lineage_karatep
+PRODUCT_NAME := corvus_karatep
 BOARD_VENDOR := lenovo
 PRODUCT_DEVICE := karatep
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo K6 Note
 PRODUCT_MANUFACTURER := LENOVO
+
+# Inherit some common corvus flags
+RAVEN_LAIR=unofficial
+CORVUS_MAINTAINER=Mohamed
+USE_GAPPS=true
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
